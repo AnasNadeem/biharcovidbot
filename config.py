@@ -4,17 +4,6 @@ import os
 
 logger = logging.getLogger()
 
-# API key
-# API_KEY="IJBD4l8evXPzw8T20h10UZx5T"
-# API Secret Key
-# API_SECRET="zLCrGxwTv9zlxgIo62YsIE5RqOdRz8JhZH7q7pI2d2OlywiJUs"
-# Bearer Token
-# AAAAAAAAAAAAAAAAAAAAACkBOwEAAAAAKrz2PWaRlhfPlwxpbWuBEqIga1M%3DSKUjIfItBrGpm1DTUX6DJFRYAoiGI2ug9gxg4ES0EO515zwGFP
-# Access token
-# ACCESS_TOKEN="1384451795557052417-248ceoj0xPOncdR4bGwIpO4djydDgk"
-# Access token secret
-# ACCESS_TOKEN_SECRET="ly26fLVNBy4UpQBWE6K5IFzBFz0f1eg4bSmEyS6XGrf8O"
-
 def create_api():
     api_key = os.getenv("API_KEY")
     api_secret = os.getenv("API_SECRET")
